@@ -6,8 +6,10 @@ terraform {
     }
   }
 
-  backend "remote" {
+  cloud {
+
     organization = "felfun-spz-technologies-azure-platform" # Replace this
+    
     workspaces {
       name = "aws-scp-deployment"
     }
