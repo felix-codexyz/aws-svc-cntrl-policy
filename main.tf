@@ -5,12 +5,12 @@ terraform {
       version = "~> 5.0"
     }
   }
+}
 
-  backend "cloud" {
-    organization = "felfun-spz-technologies-azure-platform"
-    workspaces {
-      name = "aws-scp-deployment"
-    }
+cloud {
+  organization = "felfun-spz-technologies-azure-platform"
+  workspaces {
+    name = "aws-scp-deployment"
   }
 }
 
