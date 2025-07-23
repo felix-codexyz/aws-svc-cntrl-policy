@@ -7,9 +7,10 @@ terraform {
   }
 
   backend "remote" {
-    organization = "felfun-spz-technologies-azure-platform" # Replace this
+    organization = "aws-account-organization"
+
     workspaces {
-      name = "aws-scp-deployment"
+      name = "aws-scp-deployment" # 👈 Replace with your actual TFC workspace name
     }
   }
 }
