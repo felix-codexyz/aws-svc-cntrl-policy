@@ -8,9 +8,6 @@ terraform {
 
   backend "remote" {
     organization = "succpinn-solutions-azure-policy"
-    workspaces {
-      name = "aws-scp-deployment"
-    }
   }
 }
 
