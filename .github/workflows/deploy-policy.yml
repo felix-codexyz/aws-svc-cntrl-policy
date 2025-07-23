@@ -9,7 +9,7 @@ on:
       - main
 
 env:
-  TF_WORKSPACE: aws-scp-project
+  TF_WORKSPACE: aws-scp-deployment
   TF_CLOUD_ORGANIZATION: felfun-spz-technologies-azure-platform
 
 jobs:
