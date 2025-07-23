@@ -10,7 +10,7 @@ on:
 
 env:
   TF_WORKSPACE: aws-scp-deployment
-  TF_CLOUD_ORGANIZATION: felfun-spz-technologies-azure-platform
+  TF_CLOUD_ORGANIZATION: succpinn-solutions-azure-policy
 
 jobs:
   terraform-plan:
