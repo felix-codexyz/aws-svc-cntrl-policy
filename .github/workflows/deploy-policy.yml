@@ -10,7 +10,7 @@ on:
 
 env:
   TF_WORKSPACE: aws-scp-deployment
-  TF_CLOUD_ORGANIZATION: succpinn-solutions-azure-policy
+  TF_CLOUD_ORGANIZATION: aws-account-organization
 
 jobs:
   terraform-plan:

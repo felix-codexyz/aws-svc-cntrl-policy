@@ -7,7 +7,7 @@ terraform {
   }
 
   backend "remote" {
-    organization = "succpinn-solutions-azure-policy"
+    organization = "aws-account-organization"
 
     workspaces {
       name = "aws-scp-deployment" # 👈 Replace with your actual TFC workspace name
