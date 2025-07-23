@@ -9,7 +9,6 @@ on:
       - main
 
 env:
-  # TF_WORKSPACE: aws-scp-deployment
   TF_CLOUD_ORGANIZATION: aws-account-organization
 
 jobs:
